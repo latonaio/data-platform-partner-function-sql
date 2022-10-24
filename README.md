@@ -19,17 +19,19 @@ setupファイルには、各テーブルに対応した設定値が含まれて
 
 | 取引先機能コード | 取引先機能名       | 
 | ------ | --------                   | 
-| CS     | 受注先                     | 
-| SP     | 仕入先                     | 
-| OD     | 出荷元                     | 
-| ST     | 出荷先                     | 
-| ID     | 入荷元                     | 
-| DT     | 入荷先                     | 
-| LL     | 物流業者                   | 
-| BL     | 請求先                     | 
-| PY     | 支払人                     | 
-| RV     | 受取人                     | 
-| PS     | 支払決済サービスプロバイダ   | 
+| BUYER        | 買い手                     | 
+| SELLER       | 売り手                     | 
+| CUSTOMER     | 受注先                     | 
+| SUPPLIER     | 仕入先                     | 
+| MANUFACTURER | 製造者                     | 
+| DELIVERFROM  | 入出荷元                   | 
+| DELIVERTO    | 入出荷先                   | 
+| LOGI         | 物流業者                   | 
+| BILLTO       | 請求先                     | 
+| BILLFROM     | 請求元                     | 
+| PAYEE        | 支払人                     | 
+| RECEIVER     | 受取人                     | 
+| PSPROVIDER   | 支払決済サービスプロバイダ   | 
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
 MySQLのセットアップ / Kubernetesの設定 / 具体的なSQLテーブルの作成方法、については、[mysql-kube](https://github.com/latonaio/mysql-kube)を参照ください。
