@@ -12,7 +12,7 @@ VALUES
     ('LOGI');
     ('BILLTO');
     ('BILLFROM');
+    ('PAYER');
     ('PAYEE');
-    ('RECEIVER');
     ('PSPROVIDER');
 UNLOCK TABLES;

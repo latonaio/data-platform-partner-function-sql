@@ -12,7 +12,7 @@ VALUES
     ('LOGI', 'JA', '物流業者');
     ('BILLTO', 'JA', '請求先');
     ('BILLFROM', 'JA', '請求元');
-    ('PAYEE', 'JA', '支払人');
-    ('RECEIVER', 'JA', '受取人');
+    ('PAYER', 'JA', '支払人');
+    ('PAYEE', 'JA', '受取人');
     ('PSPROVIDER', 'JA', '支払決済サービスプロバイダ');
 UNLOCK TABLES;

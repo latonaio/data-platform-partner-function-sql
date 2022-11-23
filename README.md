@@ -29,8 +29,8 @@ setupファイルには、各テーブルに対応した設定値が含まれて
 | LOGI         | 物流業者                   | 
 | BILLTO       | 請求先                     | 
 | BILLFROM     | 請求元                     | 
-| PAYEE        | 支払人                     | 
-| RECEIVER     | 受取人                     | 
+| PAYER        | 支払人                     | 
+| PAYEE        | 受取人                     | 
 | PSPROVIDER   | 支払決済サービスプロバイダ   | 
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
