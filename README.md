@@ -21,8 +21,6 @@ setupファイルには、各テーブルに対応した設定値が含まれて
 | ------ | --------                   | 
 | BUYER        | 買い手                     | 
 | SELLER       | 売り手                     | 
-| CUSTOMER     | 受注先                     | 
-| SUPPLIER     | 仕入先                     | 
 | MANUFACTURER | 製造者                     | 
 | DELIVERFROM  | 入出荷元                   | 
 | DELIVERTO    | 入出荷先                   | 
@@ -32,6 +30,7 @@ setupファイルには、各テーブルに対応した設定値が含まれて
 | PAYER        | 支払人                     | 
 | PAYEE        | 受取人                     | 
 | PSPROVIDER   | 支払決済サービスプロバイダ   | 
+| OPERATOR     | オペレータ                 | 
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
 MySQLのセットアップ / Kubernetesの設定 / 具体的なSQLテーブルの作成方法、については、[mysql-kube](https://github.com/latonaio/mysql-kube)を参照ください。
