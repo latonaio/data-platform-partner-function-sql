@@ -5,6 +5,8 @@ VALUES
     ('BUYER');
     ('SELLER');
     ('MANUFACTURER');
+    ('TRADER');
+    ('CONSUMER');
     ('DELIVERFROM');
     ('DELIVERTO');
     ('LOGI');
